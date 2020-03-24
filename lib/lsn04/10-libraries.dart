@@ -9,7 +9,7 @@ import '10-mylib2.dart' as lib2 hide Test; //筛选掉库的某些部分
 import '10-mylib2.dart' deferred as lazyLib; //延迟载入
 import 'lib/mylib.dart';
 
-/// 41
+/// 41 ~ 47
 void main() {
   // 1. 使用核心库
   print(sqrt(4).toString() + ' -> 2.0');
